@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{}
+header{
+    background-color: #545454;
+}
+header nav{}
+h1 span{
+    font-style: oblique;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+}
+nav ul li{
+    /* float: left; */
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    color: #dad9d8;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 4px 35px;
+    text-decoration: underline;
+}
+nav ul li a img{
+    max-width: 100%;
+    width: 97px;
+}
+section{
+    background-image: url(https://i0.wp.com/www.bfsb-bahamas.com/wp-content/uploads/2015/07/hills-dark.jpg?ssl=1);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+}
+.random-text{
+    width: 50%;
+    float: left;
+    padding: 213px 142px;
+    margin: auto;
+    display: block;
+}
+.random-text h1{
+    color: #dedada;
+    text-transform: capitalize;
+    display: block;
+    text-align: center;
+}
+.random-text p{
+    color: white;
+    display: block;
+    text-align: justify;
+    text-align: justify;
+    text-decoration: double;
+    text-decoration-color: blanchedalmond;
+}
+.form-box{
+    width: 50%;
+    float: left;
+    display: block;
+    margin: auto;
+    padding: 166px 136px;
+}
+.form-box h1{
+    color: antiquewhite;
+    margin-bottom: 15px;
+    display: block;
+    background: dimgrey;
+    /* border: beige; */
+    /* border: 100px; */
+    text-align: center;
+}
+.form-box p{
+    color: lavender;
+    margin-bottom: 12px;
+}
+form{}
+form input{
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+}
+
+
+form input:last-child{
+    
+                    margin-top: 15px;
+
+                    /* display: block; */
+
+                    color: black;
+
+                    background-color: coral;
+
+                    font-weight: 700;
+
+                    text-transform: uppercase;
+
+                    letter-spacing: 1px;
+
+                    cursor: pointer;
+                }
+
+form input:last-child:hover{
+    
+background-color: antiquewhite;
+
+}
+.form-box{
+    
+}
+.form-box ul{
+    list-style: none;
+}
+.form-box ul li{
+    /* float: left; */
+    margin-top: 11px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-box ul li a{
+    color: #ffffff;
+    background-color: #004767;
+    /* padding: 7px 10px; */
+    display: block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.form-box ul li a:hover{}
